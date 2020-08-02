@@ -16,7 +16,7 @@ bla bla bla
 
 ## Merge Sort
 
-```Some code goes here```
+```Some code can go here, github flavored markdown supports syntax highlighting for many languages```
 
  - And here's a pic:
  -![enter image description here](https://www.baeldung.com/wp-content/uploads/2018/09/mergesort1.png)

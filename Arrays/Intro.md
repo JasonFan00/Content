@@ -12,17 +12,25 @@ This section will explain:
 
 ## Syntax
 1.  An empty array object of size 10 is created and assigned to the reference variable arr.  For int arrays, each element defaults to the value 0:
-  ```int[] arr = new int[10] // Declares an array of size 10```
+  ```java
+   int[] arr = new int[10] // Declares an array of size 10
+  ```
 2.  An array can also be created with elements manually specified:
-```String[] arr = new {"Zero-th Element", "First Element", "Second Element"};  //  Declares an array of size 3 with elements already filled in```
+```java
+   String[] arr = new {"Zero-th Element", "First Element", "Second Element"};  //  Declares an array of size 3 with elements already filled in
+```
 
 Array indexes start at 0 in Java, hence "first" element in the example above being called the "zero-th element".
 
 ## Uses
 Arrays are used for storing data, just like any other data structure.  Say you want to store the numbers 1, 2, and 3.  One option is to create three variables, each holding one of those numbers:
-```int a = 1; int b = 2; int c = 3;```
+```java
+   int a = 1; int b = 2; int c = 3;
+```
 That can get very mess, very quick, but if you were to use an array:
-```int[] nums = {1, 2, 3};```
+```java
+   int[] nums = {1, 2, 3};
+```
 Easy and simple.
 
 ![ArrayImg](https://beginnersbook.com/wp-content/uploads/2018/10/array.jpg)
@@ -30,8 +38,9 @@ Easy and simple.
 ## Accessing the elements of an array
 
 Now you know what an array is, and how to make one.  But how to actually access the data inside an array?  The process of doing so is called *indexing* into the array.  Note in the picture above that each element has a number index assigned to it, starting from 0, and ending at the size of the array - 1.
-```int[] nums = {1, 2, 3};
+```java
+   int[] nums = {1, 2, 3};
    int a = nums[0]; // Value: 1
    int b = nums[1]; // Value: 2
    int c = nums[2]; // Value: 3
-   ```
+```
