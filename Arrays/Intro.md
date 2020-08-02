@@ -27,7 +27,7 @@ Arrays are used for storing data, just like any other data structure.  Say you w
 ```java
    int a = 1; int b = 2; int c = 3;
 ```
-That can get very mess, very quick, but if you were to use an array:
+That can get very messy, very quick, but if you were to use an array:
 ```java
    int[] nums = {1, 2, 3};
 ```
