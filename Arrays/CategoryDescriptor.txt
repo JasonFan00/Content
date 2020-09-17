@@ -1,1 +1,1 @@
-Here is a little bio for this section, it can be configured via the "CategoryDescriptor.txt" file located in every category
+Here is a little bio for this section, it can be configured via the "CategoryDescriptor.txt" file optionally located in a category
